@@ -1,2 +1,2 @@
-# js-snippets
-Collection of JS snippets
+# Collection of JS snippets
+Own snippets or saved from others
