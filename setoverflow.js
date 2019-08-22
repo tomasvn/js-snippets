@@ -1,9 +1,5 @@
 /**
  * Set overflow class
- * @param {Object} obj Config object
- * @param {Boolean} obj.isEnabled Add or remove class no-overflow based on TRUE/FALSE value
- * @param {HTMLElement} obj.elem Grab DOM element where we want to set the class
- *
  * Example Usage: setOverflow({isEnabled: true, elem: document.body}) -> this will set a class of no-overflow on body element
  */
  
@@ -19,7 +15,7 @@ const propExists = function(obj) {
 /**
  * Set overflow class
  * @param {Object} obj Config object
- * @param {Boolean} obj.isEnabled Check if setOverflow method is enabled - add or remove class no-overflow based on TRUE/FALSE value
+ * @param {Boolean} obj.isEnabled Add or remove class no-overflow based on TRUE/FALSE value
  * @param {HTMLElement} obj.elem Grab DOM element where we want to set the class
  */
 const setOverflow = function(obj) {
