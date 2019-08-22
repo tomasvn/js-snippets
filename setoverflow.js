@@ -20,12 +20,8 @@ const propExists = function(obj) {
  */
 const setOverflow = function(obj) {
     if (propExists(obj)) {
-        if (obj.isEnabled) {
-            obj.elem.classList.add('no-overflow');
-        } else {
-            obj.elem.classList.remove('no-overflow');
-        }
+       obj.isEnabled ? obj.elem.classList.add('no-overflow') : obj.elem.classList.remove('no-overflow');
     } else {
-        throw new Error("Property doesn't exist, config object have these properties - isEnabled and elem");
+       throw new Error("Property doesn't exist, config object have these properties - isEnabled and elem");
     }
 }
